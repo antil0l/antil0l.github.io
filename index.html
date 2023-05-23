@@ -5,14 +5,57 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <title>Demo market</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .genBox {
+            display: inline-block;
+            border: 2px solid darkviolet;
+            border-radius: 9%;
+            background-color: darkslateblue;
+            color: lightcyan;
+            text-align: center;
+            text-decoration: none;
+            margin: 0.2% 0.1%;
+            padding: 1%;
+
+        }
+
+        .searchBox {
+            height: 12%;
+            width: 30%;
+            margin-left: 20%;
+            text-align: center;
+        }
+
+        .loginsignup {
+            height: 12%;
+            width: 12%;
+        }
+
+        .icon {
+            display: inline-block;
+            float: right;
+            padding: 0.5% 0.5% 0 0;
+        }
+
+        .header {
+            border-bottom: 3px solid black;
+            width: 100%;
+        }
+    </style>
 
 </head>
 
 <body>
-    <haeder>
-        <div class="gen">con</div>
-        <div class="genBox login">login/signup</div>
-    </haeder>
+    <div class="header">
+        <div class="genBox loginSignup"> login/signup </div>
+        <input class="genBox searchBox" placeholder="search here">
+        <div class="icon"> <img src="attach/logo.png" alt="LOGO"></div>
+    </div>
 </body>
 
 </html>
